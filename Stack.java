@@ -68,9 +68,7 @@ class SafeStackImpl extends StackImpl implements ISafeStack
         return (tos==-1);
     }
 }
-// Class name should be "Source",
-// otherwise solution won't be accepted
-public class Source {
+public class Stack {
     public static void main(String[] args) {
         
         Scanner in = new Scanner(System.in);
